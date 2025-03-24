@@ -1,0 +1,1496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 20px 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu_butn{
+    display: none;
+}
+
+label{
+    display: none;
+}
+
+.header_social_lincs {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_social_lincs i {
+    color: #f35525;
+}
+
+.header_social_lincs ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.header_social_lincs li {
+    color: #7a7a7a;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_social_lincs a {
+    background-color: #7a7a7a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+
+
+.social-links li {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links i {
+    color: white;
+}
+
+.header_social_lincs a:hover {
+    background-color: #f35525;
+}
+
+.header_menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VILLA {
+    color: black
+}
+
+nav {
+    width: auto;
+    height: auto;
+}
+
+nav ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li {
+    width: auto;
+    height: auto;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+
+}
+
+
+nav ul li:last-child {
+    border-radius: 30px;
+    color: #f35525;
+    font-size: 20px;
+    background-color: rgb(24, 23, 23);
+}
+
+nav ul li:last-child a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 0 10px 0 0;
+}
+
+nav ul li i {
+    background-color: #f35525;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 13px;
+
+}
+
+nav ul li a:hover {
+    color: #f35525;
+}
+
+main .banner {
+    width: 100%;
+    height: 800px;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .banner_info {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 20% 320px 20%;
+    margin-top: 0px;
+}
+
+main .category {
+    background-color: #fff;
+    color: #1e1e1e;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+main .category i {
+    font-style: normal;
+    color: #f35525;
+}
+
+main .banner_info h1 {
+    font-size: 82px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 72px;
+}
+
+.Best_Appartment_cantainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    padding: 100px 0;
+}
+
+.Best_cantainer_image {
+    width: 370px;
+    height: 470px;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/featured.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.Best_cantainer_image::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: #f35525;
+    border-radius: 50%;
+    left: -5%;
+    bottom: -5%;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/featured-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.Best_cantainer_info {
+    width: 370px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Best_cantainer_info>span {
+    color: #ee626b;
+    font-weight: 700;
+}
+
+.Best_cantainer_info>h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+
+.Best_cantainer_info details {
+    transition: 0.4s;
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Best_cantainer_info details p {
+    font-size: 18px;
+}
+
+.Best_cantainer_info details[open] summary {
+    color: #f35525;
+}
+
+
+.Best_cantainer_info details[open] {
+    max-height: 250px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.211);
+    border-radius: 15px;
+}
+
+.Best_cantainer_info summary {
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+
+.Best_Appartment_List {
+    width: 350px;
+    height: auto;
+}
+
+.Best_Appartment_List ul {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 0 10px;
+
+}
+
+.Best_Appartment_List ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.Best_Appartment_List ul li img {
+    width: 65px;
+}
+
+.info_table h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.info_table span {
+    font-size: 18px;
+    color: #aaaaaa;
+    font-weight: 400;
+}
+
+.Get_Closer_View_cantainer {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Get_Closer_View_cantainer span {
+    color: #ee626b;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+.Get_Closer_View_cantainer h1 {
+    color: #eee;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.Get_Closer_View_cantainer a {
+    width: 70%;
+    aspect-ratio: 16/7;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #f35525;
+    text-decoration: none;
+    border-radius: 10px;
+    transform: translateY(50px);
+}
+
+.Get_Closer_View_cantainer i {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 40px #f355258f;
+}
+
+
+.fun_facts_cantainer {
+    text-align: center;
+    padding: 450px 0 40px 0;
+}
+
+.fun_facts_cantainer .cantainer {
+    /* background-color:#ead7d2; */
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fun_facts_cantainer .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 220px;
+}
+
+.fun_facts_cantainer .col-1 {
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 240px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fun_facts_cantainer .col-1::after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+
+.fun_facts_cantainer .col-1 h2 {
+    margin-right: 5px;
+    font-size: 40px;
+    color: #f35525;
+    font-weight: 900;
+
+}
+
+.fun_facts_cantainer .col-1 p {
+    text-align: left;
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.fun_facts_cantainer .col-2 {
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 240px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fun_facts_cantainer .col-2::after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+
+.fun_facts_cantainer .col-2 h2 {
+    margin-right: 5px;
+    font-size: 40px;
+    color: #f35525;
+    font-weight: 900;
+
+}
+
+.fun_facts_cantainer .col-2 p {
+    text-align: left;
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+.fun_facts_cantainer .col-3 {
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 240px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.fun_facts_cantainer .col-3::after {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f35525;
+    border-radius: 50%;
+    content: '';
+    right: -25px;
+    top: -25px;
+}
+
+.fun_facts_cantainer .col-3 h2 {
+    margin-right: 5px;
+    font-size: 40px;
+    color: #f35525;
+    font-weight: 900;
+
+}
+
+.fun_facts_cantainer .col-3 p {
+    text-align: left;
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.section_best_cantainer {
+    width: 100%;
+    margin: auto;
+    background-color: #433b3b23;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.section_cantainer {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_heading h6 {
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.section_heading h2 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+
+.buttons {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttons button {
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 7px;
+    font-weight: 900;
+    color: white;
+    border: none;
+    transition: 0.4s;
+}
+
+.buttons button:hover {
+    background-color: #f35525;
+}
+
+.section_best_cantainer_info {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+}
+
+.section_best_cantainer_info ul {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 15px 35px;
+}
+
+.section_best_cantainer_info ul li {
+    width: 100%;
+    border-bottom: 2px solid #eee;
+    font-size: 22px;
+    color: #aaa;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.section_best_cantainer_info ul li span {
+    color: #7a7a7a;
+}
+
+.section_best_cantainer_info ul li h3 {
+    color: #1e1e1e;
+}
+
+.section_best_cantainer_info img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.best_cantainer_info_box {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.best_cantainer_info_box h4 {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    /* padding-bottom: 270px; */
+}
+
+.best_cantainer_info_box p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #4a4a4a;
+}
+
+
+
+
+.icon-button i {
+    background-color: #f35525;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-button a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px 0 0;
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.Property_Container {
+    margin-top: 120px;
+}
+
+.Property_Cont span {
+    color: #ee626b;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Property_Cont h1 {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.Property_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 40px 200px;
+}
+
+.Property {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fafafa;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.Property_image {
+    width: 100%;
+    height: 260px;
+}
+
+.Property_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.Property_info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Property_info .Lux-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Property_info .Lux-1 span:first-child {
+    background-color: #fbd9cf;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+}
+
+.Property_info .Lux-1 span:last-child {
+    color: #f35525;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Property_info .New-street {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.Property_info .Bed {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Property_info .Bed span {
+    display: inline-block;
+    font-size: 19px;
+    color: #4a4a4a;
+}
+
+.Property_info .Bed span b {
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.Property_info .Bed .Floor {
+    display: flex;
+    justify-content: center;
+}
+
+.Property_info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border-radius: 25px;
+    transition: all .5s;
+}
+
+.Property_info a:hover {
+    background-color: #f35525;
+}
+
+.contact_us_container {
+    padding: 100px 0px 500px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.contact_us_container>div {
+    width: 100%;
+    height: 500px;
+    padding: 100px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tytle_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_us_container span {
+    color: #ee626b;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.contact_us_container h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: center;
+}
+
+.Map_form_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+
+.map {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+}
+
+.phon_envelope_box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phon_envelope_box>div {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.phon_envelope_box>div div {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+.phon_envelope_box>div i {
+    color: #f35525;
+    font-size: 30px;
+}
+
+.phon_envelope_box>div h4 {
+    width: 100%;
+    font-size: 25px;
+    color: #1e1e1e;
+}
+
+.phon_envelope_box>div span {
+    color: #7a7a7a;
+}
+
+
+.contact_form {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 30px;
+    padding: 40px 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+}
+
+.contact_form input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.18);
+}
+
+.contact_form textarea {
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.18);
+}
+
+.contact_form button {
+    background-color: #1e1e1e;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.contact_form button:hover {
+    background-color: #f35525;
+    cursor: pointer;
+}
+
+footer {
+    padding: 40px;
+    background-color: #1e1e1e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    color: white;
+    font-size: 20px;
+}
+
+@media(min-width:1200px){
+    header{
+        padding: 20px 100px;
+    }
+    .Property_box{
+        padding: 40px;
+    }
+}
+
+@media(min-width:1024px) and (max-width:1200px){
+    .Property{
+        width: 280px;
+        padding: 10px;
+    }
+    header{
+        padding: 20px;
+    }
+    
+main .banner_info h1{
+    font-size: 60px;
+}
+.Best_Appartment_cantainer{
+    flex-wrap: wrap;
+}
+.fun_facts_cantainer{
+    padding: 150px 0 40px 0;
+}
+.fun_facts_cantainer .row{
+    gap: 20px;
+}
+.section_best_cantainer{
+    padding: 100px 20px;
+}
+.section_cantainer{
+    width: 100%;
+}
+.section_best_cantainer_info{
+    flex-wrap: wrap;
+}
+.section_best_cantainer_info ul{
+    width: 100%;
+}
+.section_best_cantainer_info img{
+    width: 100%;
+}
+.best_cantainer_info_box{
+    width: 100%;
+}
+.Property_box{
+    padding: 40px;
+}
+.contact_us_container>div{
+    height: auto;
+}
+.Map_form_box{
+    flex-wrap: wrap;
+}
+.contact_form{
+    width: 80%;
+}
+}
+
+@media(min-width:768px) and (max-width:1024px){
+   header{
+    padding: 20px;
+    position: relative;
+    z-index: 99999;
+}
+nav{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    width: 400px;
+    transition: 0.5s;
+}
+nav ul{
+    flex-direction: column;
+}
+label{
+    display: flex;
+    font-size: 22px;
+    color:#f35525;
+}
+.info{
+    flex-direction: column;
+    align-items: flex-start!important;
+    gap: 5px!important;
+}
+.info li{
+    font-size: 16px;
+}
+#menu_butn:checked ~ nav{
+    padding: 20px;
+    height: 300px;
+}
+main .banner_info h1{
+    font-size: 60px;
+}
+.Best_Appartment_cantainer{
+    flex-wrap: wrap;
+    padding: 100px 20px;
+}
+.Best_cantainer_image{
+    width: 100%;
+}
+.Best_cantainer_info{
+    width: 100%;
+}
+.Best_Appartment_List{
+    width: 100%;
+}
+.fun_facts_cantainer .row{
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+}
+.fun_facts_cantainer{
+    padding: 100px 0 40px 0;
+}
+.section_cantainer{
+    width: 100%;
+    flex-direction: column;
+}
+.section_heading{
+    width: 100%;
+}
+.section_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section_best_cantainer{
+    padding: 0;
+}
+.section_cantainer{
+    padding: 20px;
+    gap: 20px;
+}
+.section_best_cantainer_info{
+    flex-direction: column;
+}
+.section_best_cantainer_info ul{
+    width: 100%;
+}
+.section_best_cantainer_info img{
+    width: 100%;
+}
+.best_cantainer_info_box{
+    width: 100%;
+}
+.Property_box{
+    padding: 40px 20px;
+}
+.contact_us_container>div{
+    height: auto;
+}
+.Map_form_box{
+    flex-direction: column;
+}
+.map{
+    width: 100%;
+}
+.contact_form{
+    width: 100%;
+}
+.contact_us_container{
+    padding: 100px 0 0 0 ;
+}
+}
+
+@media(min-width:552px) and (max-width:768px){
+    header{
+        padding: 20px;
+        position: relative;
+        z-index: 99999;
+    }
+    nav{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        padding: 0 20px;
+        overflow: hidden;
+        height: 0;
+        width: 400px;
+        transition: 0.5s;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    label{
+        display: flex;
+        font-size: 22px;
+        color:#f35525;
+    }
+    .info{
+        flex-direction: column;
+        align-items: flex-start!important;
+        gap: 5px!important;
+    }
+    .info li{
+        font-size: 16px;
+    }
+    #menu_butn:checked ~ nav{
+        padding: 20px;
+        height: 300px;
+    }
+    main .banner_info h1{
+        font-size: 40px;
+    }
+    main .banner{
+        height: 400px;
+    }
+    main .banner_info{
+        padding: 20px;
+    }
+    .Best_Appartment_cantainer{
+        flex-wrap: wrap;
+        padding: 100px 20px;
+    }
+    .Best_cantainer_image{
+        width: 100%;
+    }
+    .Best_cantainer_info{
+        width: 100%;
+    }
+    .Best_Appartment_List{
+        width: 100%;
+    }
+    .fun_facts_cantainer .col-1{
+        width: 100%;
+    }
+    .fun_facts_cantainer .col-1::after{
+        right: 25px;
+    }
+    .fun_facts_cantainer .col-2{
+        width: 100%;
+    }
+    .fun_facts_cantainer .col-2::after{
+        right: 25px;
+    }
+    .fun_facts_cantainer .col-3::after{
+        right: 25px;
+    }
+    .fun_facts_cantainer .col-3{
+        width: 100%;
+    }
+    .fun_facts_cantainer .row{
+        width: 100%;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    .fun_facts_cantainer{
+        padding: 100px 0 40px 0;
+    }
+    .section_cantainer{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section_heading{
+        width: 100%;
+    }
+    .section_heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section_best_cantainer{
+        padding: 0;
+    }
+    .section_cantainer{
+        padding: 20px;
+        gap: 20px;
+    }
+    .section_heading h2{
+        font-size: 30px;
+    }
+    .section_best_cantainer_info{
+        flex-direction: column;
+    }
+    .section_best_cantainer_info ul{
+        width: 100%;
+    }
+    .section_best_cantainer_info img{
+        width: 100%;
+    }
+    .best_cantainer_info_box{
+        width: 100%;
+        padding: 20px;
+    }
+    .Property{
+        width: 100%;
+    }
+    .Property_image img{
+        object-fit: cover;
+    }
+    .Property_box{
+        padding: 40px 20px;
+    }
+    .Property_info .New-street{
+        font-size: 22px;
+    }
+    .contact_us_container>div{
+        height: auto;
+    }
+    .Map_form_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .map{
+        width: 90%;
+    }
+    .contact_form{
+        width: 90%;
+    }
+    .contact_us_container{
+        padding: 100px 0 0 0 ;
+    }
+    footer>p{
+        text-align: center;
+    }
+    }
+
+    @media (max-width:552px){
+        header{
+            padding: 20px;
+            position: relative;
+            z-index: 99999;
+        }
+        main .banner_info{
+            padding: 20px;
+        }
+        main .banner{
+            height: 400px;
+        }
+        nav{
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            padding: 0 20px;
+            overflow: hidden;
+            height: 0;
+            width: 100%;
+            transition: 0.5s;
+        }
+        nav ul{
+            flex-direction: column;
+        }
+        label{
+            display: flex;
+            font-size: 22px;
+            color:#f35525;
+        }
+        .info{
+            flex-direction: column;
+            align-items: flex-start!important;
+            gap: 5px!important;
+        }
+        .info li{
+            font-size: 16px;
+        }
+        #menu_butn:checked ~ nav{
+            padding: 20px;
+            height: 300px;
+        }
+        main .banner_info h1{
+            font-size: 40px;
+        }
+        .Best_Appartment_cantainer{
+            flex-wrap: wrap;
+            padding: 100px 20px;
+        }
+        .Best_cantainer_image{
+            width: 100%;
+        }
+        .Best_cantainer_info{
+            width: 100%;
+        }
+        .Best_Appartment_List{
+            width: 100%;
+        }
+        .fun_facts_cantainer .col-1{
+            width: 100%;
+        }
+        .fun_facts_cantainer .col-1::after{
+            right: 25px;
+        }
+        .fun_facts_cantainer .col-2{
+            width: 100%;
+        }
+        .fun_facts_cantainer .col-2::after{
+            right: 25px;
+        }
+        .fun_facts_cantainer .col-3::after{
+            right: 25px;
+        }
+        .fun_facts_cantainer .col-3{
+            width: 100%;
+        }
+        .fun_facts_cantainer .row{
+            width: 100%;
+            justify-content: space-between;
+            gap: 15px;
+        }
+        .fun_facts_cantainer{
+            padding: 100px 0 40px 0;
+        }
+        .section_cantainer{
+            width: 100%;
+            flex-direction: column;
+        }
+        .section_heading{
+            width: 100%;
+        }
+        .section_heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .section_best_cantainer{
+            padding: 0;
+        }
+        .section_cantainer{
+            padding: 20px;
+            gap: 20px;
+        }
+        .section_heading h2{
+            font-size: 30px;
+        }
+        .section_best_cantainer_info{
+            flex-direction: column;
+        }
+        .section_best_cantainer_info ul{
+            width: 100%;
+        }
+        .section_best_cantainer_info img{
+            width: 100%;
+        }
+        .best_cantainer_info_box{
+            width: 100%;
+            padding: 20px;
+        }
+        .Property{
+            width: 100%;
+        }
+        .Property_image img{
+            object-fit: cover;
+        }
+        .Property_box{
+            padding: 40px 20px;
+        }
+        .Property_info .New-street{
+            font-size: 22px;
+        }
+        .contact_us_container>div{
+            height: auto;
+        }
+        .Map_form_box{
+            flex-direction: column;
+            align-items: center;
+        }
+        .map{
+            width: 90%;
+        }
+        .contact_form{
+            width: 90%;
+        }
+        .contact_us_container{
+            padding: 100px 0 0 0 ;
+        }
+        footer>p{
+            text-align: center;
+        }
+        }
+    
+
+
