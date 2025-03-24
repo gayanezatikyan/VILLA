@@ -118,7 +118,9 @@ nav ul li {
     width: auto;
     height: auto;
 }
-
+nav ul li:last-child{
+    display: none;
+}
 nav ul li a {
     font-size: 20px;
     text-decoration: none;
@@ -1008,6 +1010,9 @@ footer>p {
     color: white;
     font-size: 20px;
 }
+footer ul{
+    display: none;
+}
 
 @media(min-width:1200px){
     header{
@@ -1344,11 +1349,27 @@ main .banner_info h1{
             position: relative;
             z-index: 99999;
         }
+        .header_social_lincs{
+            flex-direction: column;
+            gap: 15px;
+            display: none;
+        }
+        nav ul li:last-child{
+            display: block;
+        }
         main .banner_info{
             padding: 20px;
         }
         main .banner{
             height: 400px;
+        }
+        .buttons{
+            flex-wrap: wrap;
+        }
+        .phon_envelope_box{
+            flex-direction: column;
+            align-items: start;
+            gap: 15px;
         }
         nav{
             position: absolute;
@@ -1361,9 +1382,10 @@ main .banner_info h1{
             width: 100%;
             transition: 0.5s;
         }
-        nav ul{
+        nav>ul{
             flex-direction: column;
         }
+        
         label{
             display: flex;
             font-size: 22px;
@@ -1461,6 +1483,7 @@ main .banner_info h1{
         }
         .Property{
             width: 100%;
+            padding: 20px;
         }
         .Property_image img{
             object-fit: cover;
@@ -1481,14 +1504,29 @@ main .banner_info h1{
         .map{
             width: 90%;
         }
+        .Get_Closer_View_cantainer{
+            height: 400px;
+        }
+        .Get_Closer_View_cantainer h1{
+            font-size: 40px;
+        }
         .contact_form{
             width: 90%;
         }
         .contact_us_container{
             padding: 100px 0 0 0 ;
         }
+        footer{
+            flex-direction: column;
+        }
         footer>p{
             text-align: center;
+        }
+        footer ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
         }
         }
     
